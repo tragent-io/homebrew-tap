@@ -8,25 +8,25 @@ cask "acurl" do
     end
   end
 
-  version "1.1.0"
+  version "1.1.1"
 
   on_macos do
     on_arm do
-      sha256 "d99864a4e5ead79b45459ef4ac6c246ea15ec076a3ad8d874fee57d008a0e071"
+      sha256 "843fccda2cf27d474faa5c71c235e53323a6787bdaa519d584d5dd933dc84d9c"
       url "https://github.com/tragent-io/acurl/releases/download/v#{version}/acurl_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "3d292270d7a682382539da406ec3f3f01ce755f7b0b1aff3acfb3ed13d1e26be"
+      sha256 "2cf3f702329dcf051cb218434fa2d1ffbfe09d9b6404bee10a183dd2fd8a95aa"
       url "https://github.com/tragent-io/acurl/releases/download/v#{version}/acurl_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "cb047839c825b87f6e295ff0fb018fe0df2fb78813f8ed08d418a2e98cea8c29"
+      sha256 "919cd9c876499bf49233501d1a8e3873ba24504ab37355ce5350f3aad8f4964e"
       url "https://github.com/tragent-io/acurl/releases/download/v#{version}/acurl_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "c93eb3929103c73270828c3cd2f2870ac4abde88d19327e03900767c85247ff5"
+      sha256 "3ae2d4202cbdee39478b5e9ad9230adea41b24378c864abc44cf62a6edf5031a"
       url "https://github.com/tragent-io/acurl/releases/download/v#{version}/acurl_#{version}_linux_amd64.tar.gz"
     end
   end
