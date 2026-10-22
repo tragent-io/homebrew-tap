@@ -8,31 +8,31 @@ cask "acurl" do
     end
   end
 
-  version "1.1.1"
+  version "1.2.0"
 
   on_macos do
     on_arm do
-      sha256 "843fccda2cf27d474faa5c71c235e53323a6787bdaa519d584d5dd933dc84d9c"
+      sha256 "6785a7a889e72f96b4149fe8c57a2689643cfb395b508ad8817f90e2bfdada5e"
       url "https://github.com/tragent-io/acurl/releases/download/v#{version}/acurl_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "2cf3f702329dcf051cb218434fa2d1ffbfe09d9b6404bee10a183dd2fd8a95aa"
+      sha256 "2c65817bff1a90953905dac16ca9b880f0856a65bb5b5fc2378dde210e08f1f6"
       url "https://github.com/tragent-io/acurl/releases/download/v#{version}/acurl_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "919cd9c876499bf49233501d1a8e3873ba24504ab37355ce5350f3aad8f4964e"
+      sha256 "2c48d5b6899e5ba103f3782b3efa10be1ede2e9af838717a03bf1235add5e678"
       url "https://github.com/tragent-io/acurl/releases/download/v#{version}/acurl_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "3ae2d4202cbdee39478b5e9ad9230adea41b24378c864abc44cf62a6edf5031a"
+      sha256 "9b89e5cfde5db7209efb9bc3d609dad6b2f69061599be2d38051d31849f5086a"
       url "https://github.com/tragent-io/acurl/releases/download/v#{version}/acurl_#{version}_linux_amd64.tar.gz"
     end
   end
 
   name "acurl"
-  desc "See your website the way AI agents see it"
+  desc "curl for AI agents: request a URL as Chrome and 21 AI agent and crawler profiles and compare the responses"
   homepage "https://acurl.dev"
 
   livecheck do
